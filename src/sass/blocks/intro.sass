@@ -1,0 +1,110 @@
+
+.intro
+    background: url('../css/image/intro.png') no-repeat 
+    height: 880px
+    width: 100%
+    display: flex
+    align-items: center
+    background-position-x: 50%
+.intro__inner
+    display: flex
+    justify-content: center
+    flex-direction: column
+    text-align: center
+    align-items: center
+    margin-top: 180px
+
+
+    .intro-title
+        font-family: $ff-gt
+        font-weight: $fw-700
+        font-size: 152px
+        color: $white
+        letter-spacing: 0
+    
+    .intro-subtitle
+        font-weight: $fw-400
+        font-size: $px-25
+        color: $color-h3-intro
+        letter-spacing: 17px
+    
+.intro-circle
+    border: 1px solid $white
+    border-radius: 50%
+    padding: 20px 25px
+    cursor: pointer
+    i
+        color: $white
+
+.intro-scroll
+    font-family: $ff-gt
+    margin-top: 120px
+    margin-bottom: 25px
+    font-family: $ff-op
+    font-weight: $fw-400
+    font-size: $px-13
+    color: $white
+
+
+/*Media*/
+
+@media ( max-width: 992px )
+    .intro__inner
+
+        .intro-title
+            font-size: 135px
+
+
+@media ( max-width: 796px )
+
+    .intro
+        height: 568px
+        .intro__inner
+
+            .intro-title
+                font-size: 100px
+
+            .intro-subtitle
+                font-size: 15px
+                letter-spacing: 13px
+            
+            .intro-scroll
+                margin-top: 80px
+
+
+
+@media ( max-width: 640px )
+
+    .intro
+        .intro__inner
+
+            .intro-title
+                font-size: 80px
+
+            .intro-subtitle
+                font-size: 15px
+                letter-spacing: 10px
+
+@media ( max-width: 490px )
+
+    .intro
+        .intro__inner
+
+            .intro-title
+                font-size: 60px
+
+            .intro-subtitle
+                font-size: 15px
+                letter-spacing: 3px
+    
+@media ( max-width: 350px )
+
+    .intro
+        .intro__inner
+
+            .intro-title
+                font-size: 50px
+
+            .intro-subtitle
+                font-size: 15px
+                letter-spacing: 2px

@@ -1,0 +1,114 @@
+.blog-inner
+    text-align: center
+    position: relative
+    .blog-b
+        font-family: $ff-rb
+        font-weight: $fw-700
+        font-size: 250px
+        color: $item-color
+        opacity: 18%
+        
+
+    &__title
+        font-family: $ff-gt
+        font-weight: $fw-500
+        font-size: $px-38
+        color: $item-color
+        position: absolute
+        left: 49.7%
+        bottom: 38%
+        transform: translate(-49.7%, -38%)
+        text-transform: uppercase
+
+    &__subtitle
+        font-family: $ff-gb
+        font-weight: $fw-nr
+        font-size: $px-30
+        color: $item-color
+        position: absolute
+        bottom: 20px
+        left: 20%
+        transform: translate(-40px, -20%)
+
+/*Card*/
+
+.blog-card_inner
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    padding-bottom: 110px
+
+.blog-card_item
+    width: 23%
+    text-align: center
+    img
+        width: 100%
+.item_title
+    font-family: $ff-gt
+    font-weight: $fw-500
+    font-size: $px-18
+    color: $color-h3-intro
+    margin-top: 44px
+    margin-bottom: 30px
+
+.item_subtitle
+    font-family: $ff-gb
+    font-weight: $fw-nr
+    font-size: $px-15
+    color: $item-color
+    
+
+
+/*Media*/
+
+@media (max-width: 1200px)
+    .blog-inner 
+        .blog-b
+            font-size: 240px
+
+    .blog-inner__title
+        font-size: 36px
+
+
+    .blog-inner__subtitle
+        font-size: 26px
+
+
+@media (max-width: 996px)
+    .blog-inner 
+        .blog-b
+            font-size: 240px
+
+    .blog-inner__title
+        font-size: 30px
+        left: 48.5%
+        bottom: 40%
+
+
+    .blog-inner__subtitle
+        font-size: 20px
+
+
+@media (max-width: 765px)
+    .blog-card_item
+        width: 45%
+        margin-bottom: $px-25
+
+@media (max-width: 575px)
+    .blog-card_item
+        width: 100%
+        margin: 0 $px-30 $px-35 $px-30
+    
+    .item_title
+        margin: 20px 0
+    
+    .blog-card_inner
+        padding-bottom: $px-35
+
+
+@media (max-width: 365px)
+    .blog-inner__title
+        font-size: 25px
+
+    .blog-inner__subtitle
+        font-size: 19px

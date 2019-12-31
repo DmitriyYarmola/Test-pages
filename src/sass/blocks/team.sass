@@ -1,0 +1,139 @@
+.team-inner
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    margin-top: 55px
+    padding-bottom: 125px
+    &_item
+        width: 23%
+        text-align: center
+        position: relative
+        img
+            width: 100%
+
+        &-text
+            background: $white
+            padding: 25px 40px
+            position: absolute
+            left: 10%
+            bottom: -13%
+
+            &_title
+                font-family: $ff-gt
+                font-weight: $fw-500
+                font-size: $px-20
+                color: $color-h3-intro
+                text-transform: uppercase
+
+            &_subtitle
+                font-family: $ff-gt
+                font-weight: $fw-500
+                font-size: $px-15
+                color: $text-color
+
+/*Media*/
+    
+@media ( max-width: 1200px )
+
+    .team-inner_item-text
+        left: 9%
+
+        &_title
+            font-size: $px-15
+
+
+@media ( max-width: 992px )
+
+    .team-inner_item-text
+        left: 7.3%
+        padding: 15px 20px
+
+        &_title
+            font-size: $px-12
+
+        &_subtitle
+            font-size: $px-12
+
+@media ( max-width: 776px )
+
+    .team-inner
+        flex-wrap: wrap
+        
+
+        &_item
+            margin-bottom: $px-80
+            width: 47%
+
+            &-text
+                padding: 25px 40px
+                bottom: -13%
+                left: 50%
+                transform: translate(-50%, 13%)
+
+                &_title
+                    font-size: $px-20
+
+                &_subtitle
+                    font-size: $px-15
+
+
+@media ( max-width: 576px )
+
+    .team-inner
+        margin: 0 30px
+        padding-bottom: $px-20
+
+        &_item
+            
+            width: 100%
+
+            img
+                width: 85%
+
+            &-text
+                padding: 25px 40px
+                bottom: -5%
+                left: 50%
+
+                transform: translate(-50%, 5%)
+
+                &_title
+                    font-size: $px-23
+
+                &_subtitle
+                    font-size: $px-23
+
+
+@media ( max-width: 526px )
+    .team-inner_item-text 
+        padding: 19px 30px
+
+    .team-inner_item-text_title
+        font-size: $px-20
+
+    .team-inner_item-text_subtitle
+        font-size: $px-18
+
+
+@media ( max-width: 486px )
+
+    .team-inner_item-text_title
+        font-size: $px-11
+
+    .team-inner_item-text_subtitle
+        font-size: $px-13
+
+@media ( max-width: 365px )
+
+    .team-inner_item-text_title
+        font-size: $px-10
+
+    .team-inner_item-text_subtitle
+        font-size: $px-10
+
+    .team-inner_item 
+        margin-bottom: 30px
+    
+        
+    
+                

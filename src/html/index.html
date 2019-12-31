@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="discription" content="Эта страница про тестовый сайт, который вообще не будет никогда запускаться, а свёрстан ради практики, люблю вас, мои дорогие!">
+    <meta name="keywords" content="Эта страница про тестовый сайт, который вообще не будет никогда запускаться, а свёрстан ради практики, люблю вас, мои дорогие!">
+    <meta name="google" content="notranslate"> 
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700,700i,900|Open+Sans:300i,400,400i,600,700,800&display=swap" rel="stylesheet">
+    
+    <link rel="apple-touch-icon" sizes="120x120" href="../css/image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../css/image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../css/image/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#d5cbcb">
+    <script src="https://kit.fontawesome.com/7a612667b2.js" crossorigin="anonymous"></script>
+    
+    <title>Static</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <svg display="none">
+        <symbol id="facebook" viewBox="0 0 96.124 96.123">
+                <g>
+                        <path d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803
+                            c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654
+                            c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246
+                            c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z"/>
+                    </g>
+        </symbol>
+        <symbol id="skype" viewBox="0 0 300 300">
+                <g>
+                        <path d="M289.391,181.848c2.133-9.755,3.268-19.881,3.268-30.273c0-77.917-63.166-141.084-141.086-141.084
+                            c-8.226,0-16.286,0.711-24.128,2.064C114.836,4.611,99.918,0,83.916,0C38.728,0,2.097,36.635,2.097,81.816
+                            c0,15.104,4.109,29.24,11.246,41.385c-1.871,9.166-2.854,18.653-2.854,28.373c0,77.917,63.165,141.084,141.084,141.084
+                            c8.826,0,17.459-0.817,25.834-2.367c11.518,6.19,24.688,9.709,38.678,9.709c45.189,0,81.818-36.631,81.818-81.816
+                            C297.903,205.127,294.83,192.797,289.391,181.848z M223.932,218.998c-6.527,9.236-16.17,16.555-28.664,21.749
+                            c-12.373,5.143-27.205,7.751-44.088,7.751c-20.264,0-37.253-3.564-50.513-10.598c-9.479-5.121-17.296-12.056-23.229-20.613
+                            c-5.993-8.645-9.033-17.223-9.033-25.494c0-5.17,1.98-9.652,5.886-13.32c3.865-3.636,8.818-5.478,14.724-5.478
+                            c4.848,0,9.029,1.456,12.429,4.328c3.247,2.752,6.034,6.824,8.273,12.083c2.5,5.726,5.226,10.561,8.105,14.369
+                            c2.767,3.663,6.748,6.742,11.832,9.145c5.115,2.422,12.01,3.649,20.491,3.649c11.663,0,21.226-2.49,28.419-7.402
+                            c7.025-4.797,10.441-10.555,10.441-17.604c0-5.57-1.783-9.947-5.449-13.382c-3.84-3.591-8.904-6.386-15.055-8.303
+                            c-6.412-1.999-15.117-4.155-25.884-6.409c-14.586-3.124-26.985-6.83-36.86-11.019c-0.038-0.015-0.077-0.031-0.115-0.048
+                            c-10.117-4.303-18.271-10.27-24.236-17.736c-6.059-7.582-9.129-17.094-9.129-28.275c0-10.658,3.223-20.265,9.58-28.552
+                            c6.309-8.229,15.523-14.624,27.385-19.012c11.709-4.33,25.637-6.524,41.396-6.524c12.6,0,23.678,1.455,32.924,4.33
+                            c9.299,2.896,17.139,6.807,23.299,11.619c6.205,4.848,10.82,10.035,13.719,15.422c2.928,5.441,4.412,10.856,4.412,16.094
+                            c0,5.041-1.947,9.622-5.787,13.615c-3.863,4.016-8.738,6.055-14.49,6.055c-5.225,0-9.314-1.275-12.152-3.789
+                            c-2.641-2.334-5.379-5.973-8.42-11.209c-3.518-6.684-7.775-11.953-12.66-15.666c-4.74-3.606-12.666-5.437-23.555-5.437
+                            c-10.113,0-18.338,2.03-24.445,6.034c-5.885,3.858-8.744,8.282-8.744,13.523c0,3.215,0.92,5.901,2.813,8.213
+                            c2.005,2.449,4.833,4.6,8.408,6.388c3.708,1.864,7.529,3.345,11.357,4.402c3.921,1.088,10.5,2.7,19.522,4.784
+                            c9.506,2.041,18.359,4.289,26.418,6.695c1.619,0.483,3.219,0.972,4.771,1.468c9.395,3.007,17.514,6.716,24.135,11.022
+                            c6.758,4.401,12.109,10.053,15.906,16.8c3.807,6.771,5.736,15.132,5.736,24.844C233.803,199.135,230.481,209.727,223.932,218.998z"
+                            />
+                    </g>
+        </symbol>
+        <symbol id="twitter" viewBox="0 0 512 512">
+                <g>
+                        <g>
+                            <path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+                                c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+                                c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+                                c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+                                c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+                                c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+                                C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+                                C480.224,136.96,497.728,118.496,512,97.248z"/>
+                        </g>
+                </g>
+        </symbol>
+        <symbol id="linked" viewBox="0 0 512 512">
+                <g>
+                        <g>
+                            <rect y="160" width="114.496" height="352"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path d="M426.368,164.128c-1.216-0.384-2.368-0.8-3.648-1.152c-1.536-0.352-3.072-0.64-4.64-0.896
+                                c-6.08-1.216-12.736-2.08-20.544-2.08c-66.752,0-109.088,48.544-123.04,67.296V160H160v352h114.496V320
+                                c0,0,86.528-120.512,123.04-32c0,79.008,0,224,0,224H512V274.464C512,221.28,475.552,176.96,426.368,164.128z"/>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <circle cx="56" cy="56" r="56"/>
+                        </g>
+                    </g>
+        </symbol>
+    </svg>
+    <nav class="navbar navbar-expand-lg  bg-black ps" id="header">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../css/image/CS.png" alt="">
+            </a>
+            
+            
+            <ul class="navbar-nav jstest" id="navBar">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Extensions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tutorials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                </li>
+                
+                <div class="social-item d-flex">
+                    <a href="#">
+                        <svg class="facebook">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg class="twitter">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg class="skype">
+                            <use xlink:href="#skype"></use>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg class="linked">
+                            <use xlink:href="#linked"></use>
+                        </svg>
+                    </a>
+                </div>
+            </ul>
+
+            <a class="menu-icon" id="burger"></a>
+            
+            </div>
+        </div>
+      </nav>
+
+      <div class="intro" id="intro">
+          <div class="container">
+              <div class="intro__inner">
+                  <span class="intro-title">CREATIVES</span>
+                  <div class="intro-subtitle">Power by PSDfreebies.com</div>
+                  <div class="intro-scroll">Scroll Down</div>
+                  <a class="intro-circle"  data-scroll="#forms">
+                      <i class="fas fa-chevron-down"></i>
+                  </a>
+              </div>
+          </div>
+      </div>
+
+      <div class="agency">
+          <div class="container">
+              <div class="agency-inner">
+                  <h1>W</h1>
+                  <div class="agency-inner__title">We Are An Awesome Agency
+                </div>
+              </div>
+
+              <div class="row">
+                    <div class="card col-3 .col-md-6" >
+                        <div class="card-icon"><i class="far fa-edit"></i></div>
+                        <div class="card-body">
+                            <h4>Feature one</h4>
+                            <p class="card-text">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus </p>
+                        </div>
+                    </div>
+                    <div class="card col-3 .col-md-6" >
+                        <div class="card-icon"><i class="far fa-edit"></i></div>
+                        <div class="card-body">
+                            <h4>Feature two</h4>
+                            <p class="card-text">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus </p>
+                        </div>
+                    </div>
+                    <div class="card col-3 .col-md-6 " >
+                        <div class="card-icon"><i class="fas fa-search"></i></div>
+                        <div class="card-body">
+                            <h4>Feature three</h4>
+                            <p class="card-text">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus </p>
+                        </div>
+                    </div>
+                    <div class="card col-3 .col-md-6" >
+                        <div class="card-icon"><i class="far fa-comment"></i></div>
+                        <div class="card-body">
+                            <h4>Feature four</h4>
+                            <p class="card-text">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus </p>
+                        </div>
+                    </div>
+              </div>
+              
+          </div>
+      </div>
+
+      <section class="block">
+          
+              <div class="block-inner">
+                  <div class="block-inner_item item-bg">
+                        <div class="container-two">
+                            <div class="block-inner_item-inner">
+                                <div class="block_item-suptitle">
+                                    <div class="block_item-date">Jan 4,2016  |  In Culture</div>
+                                </div>
+                                <div class="block_item-title">
+                                    <p>Akita inu dog</p>
+                                </div>
+                                <div class="block_item-text">
+                                    <div class="block_item-text_title">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
+                                    <div class="block_item-text_subtitle">Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur </div>
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+
+                  <div class="block-inner_item">
+                      <img class="item-img" src="../css/image/Rectang.png" alt="">
+                  </div>
+
+                  <div class="block-inner_item ord-3">
+                      <img class="item-img" src="../css/image/Rect2.png" alt="">
+                  </div>
+
+                  <div class="block-inner_item item-bg-two ord-2">
+                        <div class="container-two">
+                            <div class="block-inner_item-inner">
+                                <div class="block_item-suptitle">
+                                    <div class="block_item-date">Jan 4,2016  |  In Culture</div>
+                                </div>
+                                <div class="block_item-title">
+                                    <p>Akita inu dog</p>
+                                </div>
+                                <div class="block_item-text">
+                                    <div class="block_item-text_title">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
+                                    <div class="block_item-text_subtitle">Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur </div>
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+              </div>
+          
+      </section>
+
+      <section class="blog">
+          <div class="container">
+            <div class="blog-inner">
+                <h1 class="blog-b">B</h1>
+                <div class="blog-inner__title">Let`s Blog</div>
+                <div class="blog-inner__subtitle">We love clean design and advanced digital solutions.</div>
+            </div>
+
+            <div class="blog-card_inner">
+                <div class="blog-card_item">
+                    <div class="item_img">
+                        <img src="../css/image/Rectangle 4.png" alt="">
+                    </div>
+                    <div class="item_title">Fresh Summer Campaign
+                    </div>
+                    <div class="item_subtitle">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
+                </div>
+
+                <div class="blog-card_item">
+                    <div class="item_img">
+                        <img src="../css/image/Rectangle 4 copy.png" alt="">
+                    </div>
+                    <div class="item_title">Fresh Summer Campaign
+                    </div>
+                    <div class="item_subtitle">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
+                </div>
+
+                <div class="blog-card_item">
+                    <div class="item_img">
+                        <img src="../css/image/Rectangle 4 copy 2.png" alt="">
+                    </div>
+                    <div class="item_title">Fresh Summer Campaign
+                    </div>
+                    <div class="item_subtitle">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
+                </div>
+                
+                <div class="blog-card_item">
+                    <div class="item_img">
+                        <img src="../css/image/Rectangle 4.png" alt="">
+                    </div>
+                    <div class="item_title">Fresh Summer Campaign
+                    </div>
+                    <div class="item_subtitle">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
+                </div>
+            </div>
+          </div>
+      </section>
+
+      <div class="defoult">
+          <div class="container">
+              <div class="defoult-inner">
+                  <div class="defoult-inner_item">
+                      <div class="defoult-inner_item-img"><i class="far fa-edit"></i></div>
+                      <div class="defoult-inner_item-text">Cum sociis natoque penatibus et magnis dis parturient 
+                          <br>montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, 
+                          <br>consectetur adipiscing elit. Donec sed odio dui. Vivamus 
+                          <br>sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
+                  </div>
+
+                  <div class="defoult-inner_item">
+                      <div class="defoult-inner_item-img"><i class="far fa-edit"></i></div>
+                      <div class="defoult-inner_item-text">Cum sociis natoque penatibus et magnis dis parturient 
+                          <br>montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, 
+                          <br>consectetur adipiscing elit. Donec sed odio dui. Vivamus 
+                          <br>sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <section class="mobile">
+          <div class="container">
+              <div class="mobile-inner">
+                  <div class="mobile-inner_item _mt-dk">
+                      <div class="mobile-inner_title">Akita Inu Dog</div>
+                      <div class="mobile-inner_text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
+                      <div class="mobile-inner_string">
+                          <p class="mobile-inner_string_item _mt _pd-all _wd-one">Fully Responsive Design</p>
+                          <p class="mobile-inner_string_item  _pd-all _wd-two">High Quality Code</p>
+                          <p class="mobile-inner_string_item  _pd-all _wd-fry">Different Headers & Layout</p>
+                      </div>
+                  </div>
+                  <div class="mobile-inner_item d-flex justify-content-center _mt-30 ">
+                      <img src="../css/image/mobile.png" alt="">
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <div class="team">
+          <div class="container">
+                <div class="blog-inner">
+                        <h1 class="blog-b">T</h1>
+                        <div class="blog-inner__title">Our Team</div>
+                        <div class="blog-inner__subtitle"> sales long tail influencer pitch release niche market.</div>
+                </div>
+              <div class="team-inner">
+                  <div class="team-inner_item">
+                        <div class="team-inner_item-img">
+                            <img src="../css/image/man1.png" alt="">
+                        </div>
+                        <div class="team-inner_item-text">
+                            <div class="team-inner_item-text_title">John Snow</div>
+                            <div class="team-inner_item-text_subtitle">Ceo</div>
+                        </div>
+                  </div>
+
+                  <div class="team-inner_item">
+                        <div class="team-inner_item-img">
+                            <img src="../css/image/man2.png" alt="">
+                        </div>
+                        <div class="team-inner_item-text">
+                            <div class="team-inner_item-text_title">LADY SANSA</div>
+                            <div class="team-inner_item-text_subtitle">WebDesigner</div>
+                        </div>
+                  </div>
+
+                  <div class="team-inner_item">
+                        <div class="team-inner_item-img">
+                            <img src="../css/image/man3.png" alt="">
+                        </div>
+                        <div class="team-inner_item-text">
+                            <div class="team-inner_item-text_title">DAVID SMITH</div>
+                            <div class="team-inner_item-text_subtitle">Photographer</div>
+                        </div>
+                  </div>
+
+                  <div class="team-inner_item">
+                        <div class="team-inner_item-img">
+                            <img src="../css/image/man4.png" alt="">
+                        </div>
+                        <div class="team-inner_item-text">
+                            <div class="team-inner_item-text_title">LADY SANSA</div>
+                            <div class="team-inner_item-text_subtitle">Photographer</div>
+                        </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <section class="forms" id="forms">
+          <div class="container">
+                <div class="forms-inner">
+                    <h1 class="forms-c">C</h1>
+                    <div class="forms-inner__title">
+                        We’d love to hear about your project.
+                        </div>
+                    
+                </div>
+
+                <div class="input-inner">
+                    <div class="input-inner_item_up">
+                        <input type="text" placeholder="Name" >
+                        <input type="email" placeholder="Email" >
+                        <input type="phone" placeholder="Phone" >
+                    </div>
+                    <div class="input-inner_item_down">
+                        <input type="text" placeholder="Message" >
+                    </div>
+                    <div class="input-inner_button">
+                        <a href="#" class="input-inner_button_submit">Submit</a>
+                    </div>
+                </div>
+          </div>
+      </section>
+
+      <div class="maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.066932970174!2d2.3422115831620975!3d48.85693403812444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e208ddb058b%3A0xd469600dcb63f51b!2z0J_QvtC9LdCd0ZHRhA!5e0!3m2!1sru!2sua!4v1574511520359!5m2!1sru!2sua" width="100%" height="330" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+
+      <div class="footer">
+          <div class="container">
+              <div class="footer-inner">
+                  <div class="footer-inner_item">© 2016 PSDfreebies.com – All Right Reserved</div>
+                  <div class="footer-inner_item">
+                      <img src="../css/image/footer.png" alt="">
+                  </div>
+              </div>
+          </div>
+      </div> 
+
+      <!--JavaScript-->
+      <script src="../js/main.js"></script>
+</body>
+</html>

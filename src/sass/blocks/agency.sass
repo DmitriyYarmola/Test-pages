@@ -1,0 +1,142 @@
+.agency-inner
+    text-align: center
+    position: relative
+.agency
+    background-color: $color-h3-intro
+    h1
+        color: $white
+        font-family: $ff-rb
+        font-weight: 700
+        font-size: 248px
+        opacity: 18%
+        
+    
+    .agency-inner__title
+        font-family: $ff-gt
+        font-weight: $fw-500
+        font-size: 38px
+        color: $white
+        position: absolute
+        bottom: 38%
+        left: 50%
+        transform: translate(-50%, -38%)
+
+/*Card*/
+
+.card
+    background-color: transparent
+    border: none
+    text-align: center
+    .card-icon
+        border: 1px solid transparent
+        border-radius: 50%
+        height: 135px
+        width: 135px
+        background: rgba(255, 255, 255, .2)
+        display: flex
+        justify-content: center
+        align-items: center
+        font-size: 35px
+        margin: 0 auto
+
+    i
+        color: $white
+
+    h4
+        font-family: $ff-gt
+        font-weight: $fw-500
+        color: $white
+        text-transform: uppercase
+        font-size: $px-18
+        margin-top: 25px
+
+.card-body
+        padding: 0
+        margin: 0
+        
+.card-text
+    font-family: $ff-gt
+    font-weight: $fw-500
+    color: $white
+    font-size: $px-15
+    margin-top: 35px
+
+.row
+    padding-bottom: 130px
+
+/*Media*/
+
+@media (max-width: 1200px)
+    .agency
+
+        .agency-inner__title
+            font-size: $px-30
+            bottom: 45%
+
+
+@media (max-width: 992px)
+
+    .agency
+        .agency-inner__title
+                font-size: $px-24
+                bottom: 45%
+
+@media (max-width: 769px)
+
+    .agency
+        h1
+            font-size: 215px
+
+        .agency-inner__title
+                font-size: $px-18
+                bottom: 48%
+
+@media ( max-width: 620px)
+    .col-3
+        flex: none
+        max-width: none
+    .card
+        width: 50%
+        margin-top: 35px
+    
+    .row
+        padding-bottom: 30px
+
+@media (max-width: 532px)
+
+    .agency
+        h1
+            font-size: 165px
+            
+        .agency-inner__title
+                font-size: $px-15
+                bottom: 45%
+
+
+@media (max-width: 432px)
+
+    .agency
+        h1
+            font-size: 120px
+            
+        .agency-inner__title
+                font-size: $px-15
+                bottom: 45%
+
+        .agency-inner__title
+            left: 36%
+            transform: translate(-22%, -38%)
+
+    .card
+        width: 100%
+
+    .card-text
+        margin: 20px 
+
+
+@media (max-width: 345px)
+
+    .agency
+        .agency-inner__title
+                font-size: $px-12
+                bottom: 45%

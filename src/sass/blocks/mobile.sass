@@ -1,0 +1,149 @@
+.mobile
+    background: url('../css/image/photo1.png') no-repeat center
+    height: 850px
+    display: flex
+    align-items: center
+    &-inner
+        display: flex
+        align-items: center
+        &_item
+            width: 50%
+
+        &_title
+            font-family: $ff-gt
+            font-weight: $fw-500
+            font-size: $px-25
+            color: $white
+        
+        &_text
+            font-family: $ff-gb
+            font-weight: $fw-nr
+            font-size: $px-15
+            color: $white
+            max-width: 550px
+
+            margin-top: 40px
+
+    
+        
+/*Modificator*/
+._mt
+    margin-top: $px-70
+._mt-30
+    margin-top: 30px
+._pd-all
+    padding: 15px 0 15px 20px
+._wd-one
+    width: $px-350
+._wd-two
+    width: $px-380
+    margin-top: $px-25
+._wd-fry
+    width: $px-410
+    margin-top: $px-25
+
+.mobile-inner_string
+
+    &_item
+        font-family: $ff-gt
+        font-weight: $fw-500
+        font-size: $px-15
+        color: $white
+
+        background: $color-h3-intro
+
+/*Media*/
+
+@media ( max-width: 996px)
+    ._wd-one
+        width: ( $px-350 - $px-50 )
+
+    ._wd-two
+        width: ( $px-380 - $px-50 )
+
+    ._wd-fry
+        width: ( $px-410 - $px-50 )
+
+
+@media ( max-width: 996px)
+    
+        
+        
+        
+
+@media ( max-width: 776px)
+
+    .mobile-inner_item
+        // margin-top: $px-350
+
+        // .mobile-inner_item
+        //     width: 100%
+
+    .mobile-inner
+        flex-wrap: wrap
+
+
+@media ( max-width: 776px)
+    .mobile
+        height: 1078px
+    .mobile-inner_item
+        width: 100%
+        
+        img
+            height: 455px
+
+    ._mt-dk
+        margin-top: ( $px-70 + $px-50 )
+
+    ._wd-one
+        width: $px-350
+
+    ._wd-two
+        width: $px-380
+
+    ._wd-fry
+        width: $px-410
+
+
+
+@media ( max-width: 576px)
+    .mobile-inner_item
+        margin: 0 $px-25
+
+
+    ._wd-one
+        width: ( $px-350 - $px-50 )
+
+    ._wd-two
+        width: ( $px-380 - $px-50 )
+
+    ._wd-fry
+        width: ( $px-410 - $px-50 )
+
+    ._mt-dk
+        margin-bottom: 50px
+
+@media ( max-width: 576px)
+
+    ._wd-one
+        width: ( $px-350 - $px-50 - $px-30 )
+
+    ._wd-two
+        width: ( $px-380 - $px-50 - $px-30 )
+
+    ._wd-fry
+        width: ( $px-410 - $px-50 - $px-30 )
+
+
+@media ( max-width: 379px)
+    .mobile-inner_text
+        max-width: 310px
+
+    ._wd-one
+        width: ( $px-350 - $px-50 - $px-30*2 - $px-15)
+
+    ._wd-two
+        width: ( $px-380 - $px-50 - $px-30*2 - $px-15)
+
+    ._wd-fry
+        width: ( $px-410 - $px-50 - $px-30*2 - $px-15)

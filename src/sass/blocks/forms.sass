@@ -1,0 +1,222 @@
+.forms
+
+    background: url('../css/image/fonts-c.png')
+    .forms-inner
+    text-align: center
+    position: relative
+
+    .forms-c
+        font-family: $ff-rb
+        font-weight: $fw-700
+        font-size: 250px
+        color: $white
+        opacity: 18%
+    
+    .forms-inner__title
+        font-family: "Gotham Pro", sans-serif
+        font-weight: 500
+        font-size: $px-38
+        color: $white
+        position: absolute
+        left: 48.7%
+        width: 100%
+        bottom: 70%
+        -webkit-transform: translate(-49.7%, -38%)
+        transform: translate(-49.7%, -38%)
+        text-transform: uppercase
+
+    .input-inner_item_up
+        display: flex
+        justify-content: space-between
+        input
+            background: inherit
+            border: .2px solid $white
+            padding: 10px 185px 10px 20px
+            color: $white
+            
+            box-shadow: -3px rgba(65, 105, 225, .3)
+
+            &::placeholder
+                color: $white
+                font-family: $ff-gb
+                font-weight: $fw-nr
+                font-size: $px-15
+                color: $white
+
+.input-inner_item_down
+    margin-top: 40px
+    // padding-bottom: 45px
+    input
+        background: inherit
+        border: .2px solid $white
+        padding: 5px 0px 120px 20px            
+        color: $white
+        width: 100%
+    
+        box-shadow: -3px rgba(65, 105, 225, .3)
+
+        &::placeholder
+            color: $white
+            font-family: $ff-gb
+            font-weight: $fw-nr
+            font-size: $px-15
+            color: $white
+                
+.input-inner_button
+    text-decoration: none
+    margin-top: 65px
+    padding-bottom: 100px
+
+    &_submit
+        background: $color-h3-intro
+        color: $white
+        text-transform: uppercase
+        text-decoration: none
+        padding: 15px 50px
+        transition: .2s linear
+
+        &:hover
+            text-decoration: none
+            background: darken($color-h3-intro, 10%)
+            color: $white
+
+
+/*Media*/
+
+@media ( max-width: 1200px)
+    .forms
+        .input-inner_item_up 
+            input
+                padding: 10px 80px 10px 20px
+
+
+@media ( max-width: 992px)
+    .forms
+        .input-inner_item_up 
+            input
+                padding: 10px 30px 10px 20px
+
+@media ( max-width: 900px)
+    .forms 
+        .forms-inner__title
+            font-size: $px-30
+            left: 50%
+            bottom: 70%
+            transform: translate(-50%, -70%)
+
+@media ( max-width: 767px)
+    .forms 
+        .forms-inner__title
+            font-size: $px-30
+            left: 50%
+            bottom: 74%
+            transform: translate(-50%, -74%)
+
+        .input-inner_item_up 
+            justify-content: center
+            flex-wrap: wrap
+            input
+                padding: 10px 340px 10px 20px
+
+                &:not(:last-child)
+                    margin-bottom: $px-30
+
+
+        .input-inner_item_down
+                input
+                    padding: 5px 340px 120px 20px
+                    width: auto
+
+
+@media ( max-width: 710px)
+    .forms 
+        .forms-inner__title
+            font-size: $px-25
+            left: 50%
+            bottom: 75%
+            transform: translate(-50%, -75%)
+
+@media ( max-width: 592px)
+    .forms 
+        .forms-c
+            font-size: 240px
+
+        .forms-inner__title
+            font-size: $px-20
+            left: 50%
+            bottom: 76%
+            transform: translate(-50%, -76%)
+
+@media ( max-width: 550px)
+    .forms 
+        .forms-inner__title
+            font-size: $px-20
+            left: 50%
+            bottom: 75%
+            transform: translate(-50%, -75%)
+
+        .input-inner_item_up
+                input
+                    padding: 10px 260px 10px 20px
+
+        .input-inner_item_down
+                input
+                    padding: 5px 260px 120px 20px
+                    width: auto
+
+        .input-inner_button
+            padding-bottom: 50px
+
+@media ( max-width: 472px )
+        .forms
+            .input-inner_item_up
+                input
+                    padding: 10px 200px 10px 20px
+
+            .input-inner_item_down
+                input
+                    padding: 5px 200px 120px 20px
+                    width: auto
+
+@media ( max-width: 470px)
+    .forms 
+        .forms-inner__title
+            font-size: $px-15
+            left: 50%
+            bottom: 76%
+            transform: translate(-50%, -76%)
+
+
+@media ( max-width: 410px )
+        .forms
+            .input-inner_item_up
+                input
+                    padding: 10px 145px 10px 20px
+
+            .input-inner_item_down
+                input
+                    padding: 5px 145px 120px 20px
+                    width: auto
+
+
+@media ( max-width: 370px)
+    .forms 
+        .forms-inner__title
+            font-size: $px-13
+            left: 50%
+            bottom: 77%
+            transform: translate(-50%, -77%)
+
+@media ( max-width: 350px )
+        .forms
+            .input-inner_item_up
+                input
+                    padding: 10px 105px 10px 20px
+
+            .input-inner_item_down
+                input
+                    padding: 5px 105px 120px 20px
+                    width: auto
+
+
+            

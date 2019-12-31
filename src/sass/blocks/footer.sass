@@ -1,0 +1,26 @@
+.footer
+    background: $item-color
+
+    &-inner
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 50px 0
+
+        &_item
+            color: $white
+            font-family: $ff-rb
+            font-weight: $fw-400
+            font-size: $px-13
+
+
+/*Media*/
+
+@media ( max-width: 576px )
+    .footer-inner
+        margin: 0 30px
+
+@media ( max-width: 520px )
+    .footer-inner
+        flex-direction: column
+        padding: 25px 0

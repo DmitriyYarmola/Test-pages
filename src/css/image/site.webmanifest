@@ -1,0 +1,14 @@
+{
+    "name": "Static",
+    "short_name": "Static",
+    "icons": [
+        {
+            "src": "/android-chrome-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#d5cbcb",
+    "background_color": "#d5cbcb",
+    "display": "standalone"
+}

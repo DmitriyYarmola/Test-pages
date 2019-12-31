@@ -1,0 +1,55 @@
+.defoult
+    background: $color-h3-intro
+    padding: 110px 0 160px 0
+    &-inner
+        display: flex
+        justify-content: space-between
+        &_item
+            display: flex
+            align-items: center
+            flex-wrap: wrap
+            width: 47.9%
+            color: $white
+            i
+                font-size: $px-75
+                color: $white
+                margin-right: $px-35
+            
+            &-text
+                font-family: $ff-gb
+                font-weight: $fw-nr
+                font-size: $px-15
+                
+
+/*Media*/
+
+@media ( max-width: 1200px )
+    .defoult-inner_item 
+        i
+            margin-bottom: 35px
+
+@media ( max-width: 600px )
+    .defoult-inner_item 
+        i
+            margin-bottom: 25px
+
+@media ( max-width: 575px )
+    .defoult
+        padding: 45px 0 60px 0
+    .defoult-inner_item 
+        width: 100%
+        justify-content: center
+        i
+            margin-bottom: 25px
+
+    .defoult-inner
+        flex-wrap: wrap
+
+    .defoult-inner_item:not(:first-child)
+        margin-top: $px-45
+
+@media ( max-width: 460px )
+    .defoult-inner_item 
+        margin: 0 25px
+
+    
